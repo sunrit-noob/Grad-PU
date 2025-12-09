@@ -7,9 +7,9 @@ from models.utils import *
 from models.P2PNet import P2PNet
 from einops import rearrange
 from time import time
-from args.pu1k_args import parse_pu1k_args
-from args.pugan_args import parse_pugan_args
-from args.utils import str2bool
+from args_grad.pu1k_args import parse_pu1k_args
+from args_grad.pugan_args import parse_pugan_args
+from args_grad.utils import str2bool
 from tqdm import tqdm
 import argparse
 
