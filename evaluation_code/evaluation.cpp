@@ -33,7 +33,7 @@
 #include <CGAL/AABB_traits.h>
 #include <CGAL/AABB_tree.h>
 
-//#include <CGAL/IO/OFF_reader.h>
+#include <CGAL/IO/read_OFF.h>
 
 //we use multi-thread to accelerate the calculation
 //define the thread number here
